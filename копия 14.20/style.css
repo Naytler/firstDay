@@ -83,7 +83,6 @@ ul {
 }
 
 .promo {
-  height: 730px;
 }
 
 .promo__img {
@@ -406,8 +405,7 @@ li > span {
   margin-top: 98px;
 }
 
-.travelers > .container {
-  height: 751px;
+.travelers {
 }
 
 .travelers__background {
@@ -419,7 +417,7 @@ li > span {
   width: 100%;
   max-width: 1440px;
   position: absolute;
-  top: 2198px;
+  top: 2220px;
   z-index: -5;
 }
 
@@ -485,75 +483,4 @@ li > span {
   display: flex;
   gap: 60px;
   max-height: 483px;
-}
-
-.profile > .container {
-  height: 750px;
-  flex-direction: column;
-  align-items: center;
-}
-
-.profile__background {
-}
-
-.profile__background-img {
-  position: absolute;
-  top: 2969px;
-  z-index: -6;
-}
-
-.profile__title {
-  color: rgba(255, 141, 48, 1);
-  margin-top: 107px;
-  font-size: 45px;
-  font-weight: 700;
-  line-height: 45px;
-}
-
-.profile__text {
-  display: flex;
-  margin-top: 153px;
-  max-width: 1177px;
-  width: 100%;
-  justify-content: space-evenly;
-}
-
-.profile__text__choice {
-  font-size: 28px;
-  font-weight: 300;
-  line-height: 28px;
-}
-
-.profile__text__choice-1 > span {
-  width: 68px;
-  height: 68px;
-  background: rgba(255, 141, 48, 1);
-}
-.profile__text__choice-2 > span {
-  width: 68px;
-  height: 68px;
-  background: rgba(255, 189, 48, 1);
-}
-.profile__text__choice-3 > span {
-  width: 68px;
-  height: 68px;
-  background: rgba(255, 189, 48, 1);
-}
-.profile__text__choice-4 > span {
-}
-
-.profile__text__price {
-  font-size: 28px;
-  font-weight: 300;
-  line-height: 28px;
-  letter-spacing: 0em;
-  text-align: right;
-
-  width: 446px;
-  height: 300px;
-  background: rgba(226, 229, 242, 1);
-}
-
-.profile__text__img {
-  position: absolute;
 }

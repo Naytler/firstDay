@@ -49,12 +49,6 @@ button {
   display: flex;
 }
 
-.meadia__header {
-  background: transparent;
-  border: none;
-  display: none;
-}
-
 .header__svg {
   margin-left: 40px;
 }
@@ -89,33 +83,6 @@ button {
   border: none;
 }
 
-.header__modale {
-  display: none;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 5;
-}
-
-.header__modale-background {
-  position: absolute;
-  background: grey;
-  width: 100%;
-  height: 910px;
-}
-
-.header__modale__top {
-  position: relative;
-  z-index: 6;
-  display: flex;
-  gap: 145px;
-}
-
-.header__modale__menu {
-  position: relative;
-  z-index: 6;
-}
-
 .main {
   max-width: 1440px;
 }
@@ -126,8 +93,7 @@ button {
 
 .promo__img {
   height: 750px;
-
-  width: 100%;
+  width: 1440px;
   max-width: 1440px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -553,10 +519,9 @@ li > span {
 
 .profile__background-img {
   position: absolute;
+  top: 2969px;
   z-index: -6;
   top: -60px;
-  width: 100%;
-  height: 818px;
 }
 
 .profile__title {
@@ -827,7 +792,6 @@ li > span {
   z-index: -7;
 
   height: 310px;
-  width: 100%;
   max-width: 1440px;
 }
 
@@ -860,8 +824,6 @@ li > span {
   position: absolute;
   z-index: -7;
   top: -251px;
-  width: 100%;
-  height: 849px;
 }
 
 .footer__contacts-text {
@@ -968,8 +930,6 @@ li > span {
   position: absolute;
   z-index: -8;
   top: -116px;
-  width: 100%;
-  height: 262px;
 }
 
 .footer__addres__nav {
@@ -1009,8 +969,6 @@ li > span {
 .footer__map-backgr {
   position: absolute;
   top: -66px;
-  width: 100%;
-  height: 584px;
 }
 
 .footer__footer {
@@ -1049,21 +1007,11 @@ li > span {
   top: 0;
   z-index: 10;
   width: 100%;
-  max-width: 1440px;
 }
 
-@media (max-width: 1140px) {
-  .header__svg,
-  .menu,
-  .header__contact-img {
-    display: none;
-  }
-  .meadia__header {
-    display: block;
-  }
-
-  .header__modale {
-    /* display: block; */
-    position: absolute;
+@media (max-width: 600px) {
+  /* Ваши стили для экранов шириной до 600px */
+  body {
+    font-size: 14px;
   }
 }

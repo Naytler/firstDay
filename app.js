@@ -9,6 +9,19 @@ const modale = document.querySelector('.profile__modale');
 const interestedButton = document.querySelector('.interested__title');
 const footer = document.querySelector('.footer');
 
+const headerMedia = document.querySelector('.meadia__header');
+const headerModale = document.querySelector('.header__modale');
+
+const headerMediaClose = document.querySelector('.header__modale__top-img2');
+
+headerMedia.addEventListener('click', function () {
+  headerModale.classList.remove('none');
+});
+
+headerMediaClose.addEventListener('click', function () {
+  headerModale.classList.add('none');
+});
+
 openModale.addEventListener('click', function () {
   modale.classList.remove('none');
 });
@@ -59,7 +72,7 @@ travelers.forEach((link) => {
 window.addEventListener('scroll', function () {
   const currentPosition = window.scrollY;
 
-  const targetElement = document.querySelector('.space');
+  const targetElement = document.querySelector('.space__header');
   const spaceFix = document.querySelector('.space__fix');
 
   if (currentPosition >= 750) {

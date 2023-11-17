@@ -55,6 +55,11 @@ button {
   margin: 0 auto;
 }
 
+.header_scroll {
+  height: 90px;
+  display: none;
+}
+
 .header {
   max-width: 1320px;
   max-height: 53px;
@@ -1196,6 +1201,10 @@ li > span {
   display: none;
 }
 
+.block {
+  display: block;
+}
+
 .fixed {
   position: fixed;
   top: 0;
@@ -1234,6 +1243,22 @@ li > span {
     display: none;
   }
 
+  .header__scroll {
+    position: fixed;
+    margin: 0;
+    z-index: 11;
+    background: #fff;
+    height: 132px;
+    max-height: 132px;
+    align-items: center;
+  }
+
+  .header_scroll__space {
+    height: 100px;
+  }
+
+  /* images/promo/Rectangle 1.svg */
+
   .header__scroll__media {
     display: block;
     display: flex;
@@ -1246,6 +1271,7 @@ li > span {
   .meadia__header {
     display: block;
   }
+
   .header__left {
     margin-left: 40px;
   }
@@ -1724,6 +1750,19 @@ li > span {
     order: 3;
     width: 18px;
     height: 19px;
+  }
+
+  .header__mobile-scroll {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    position: fixed;
+    background: #fff;
+    width: 320px;
+    height: 73px;
+    top: 0;
+    z-index: 10;
   }
 
   #modale__travelers-mod {
@@ -2363,4 +2402,12 @@ li > span {
     width: 270px;
     margin-right: 0;
   }
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
 }

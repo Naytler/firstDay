@@ -1759,10 +1759,13 @@ li > span {
     padding: 25px;
     position: fixed;
     background: #fff;
-    width: 320px;
+    width: 100%;
     height: 73px;
     top: 0;
     z-index: 10;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
   }
 
   #modale__travelers-mod {

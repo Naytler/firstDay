@@ -128,6 +128,8 @@ window.addEventListener('scroll', function () {
     } else {
       headerMobile.classList.add('none');
     }
+  } else {
+    headerMobile.classList.add('none');
   }
 
   console.log(document.body.clientWidth);

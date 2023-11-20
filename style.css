@@ -20,6 +20,7 @@ a {
 html,
 body {
   height: 100%;
+  padding: 0 calc((100% - 1440px) / 2);
 }
 
 ul {
@@ -50,9 +51,9 @@ button {
 .wrapper {
   font-family: blogger sans;
   height: 100%;
-  width: 100%;
+  /* width: 100%;
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 0 auto; */
 }
 
 .header_scroll {
@@ -221,7 +222,7 @@ button {
 }
 
 .promo__img {
-  background-image: url(/images/promo/globe-back-desktop.png);
+  background-image: url(images/promo/globe-back-desktop.png);
   max-width: 1440px;
   width: 100%;
 

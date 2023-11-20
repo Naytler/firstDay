@@ -132,5 +132,5 @@ window.addEventListener('scroll', function () {
     headerMobile.classList.add('none');
   }
 
-  console.log(document.body.clientWidth);
+  // console.log(document.body.clientWidth);
 });

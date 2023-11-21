@@ -99,7 +99,7 @@ window.addEventListener('scroll', function () {
   const svg2 = document.querySelector('.meadia__header__svg2 ');
   const headerImg1 = document.querySelector('.header__left-img1');
   const headerImg3 = document.querySelector('.header__left-img3');
-  if (document.body.clientWidth <= 1140 && document.body.clientWidth >= 769) {
+  if (document.body.clientWidth <= 1140 && document.body.clientWidth >= 768) {
     if (currentPosition >= 1) {
       header.classList.add('header__scroll');
       header__scroll.classList.remove('none');
@@ -122,7 +122,7 @@ window.addEventListener('scroll', function () {
   }
 
   const headerMobile = this.document.querySelector('.header__mobile-scroll');
-  if (document.body.clientWidth <= 768) {
+  if (document.body.clientWidth <= 767) {
     if (currentPosition >= 1) {
       headerMobile.classList.remove('none');
     } else {

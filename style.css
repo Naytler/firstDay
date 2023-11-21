@@ -19,8 +19,8 @@ a {
 
 html,
 body {
+  font-family: blogger sans;
   height: 100%;
-  padding: 0 calc((100% - 1440px) / 2);
 }
 
 ul {
@@ -33,27 +33,27 @@ button {
 
 @font-face {
   font-family: 'Blogger Sans medium';
-  src: url('/fonts/Blogger_Sans-Medium.otf') format('truetype');
+  src: url('fonts/Blogger_Sans-Medium.otf') format('truetype');
 }
 @font-face {
   font-family: 'Blogger Sans light';
-  src: url('/fonts/Blogger_Sans-Light.otf') format('truetype');
+  src: url('fonts/Blogger_Sans-Light.otf') format('truetype');
 }
 @font-face {
   font-family: 'Blogger Sans';
-  src: url('/fonts/Blogger_Sans.otf') format('truetype');
+  src: url('fonts/Blogger_Sans.otf') format('truetype');
 }
 @font-face {
   font-family: 'Blogger Sans bold';
-  src: url('/fonts/Blogger_Sans-Bold.otf') format('truetype');
+  src: url('fonts/Blogger_Sans-Bold.otf') format('truetype');
 }
 
 .wrapper {
   font-family: blogger sans;
   height: 100%;
-  /* width: 100%;
+  width: 100%;
   max-width: 1440px;
-  margin: 0 auto; */
+  margin: 0 auto;
 }
 
 .header_scroll {
@@ -1295,12 +1295,12 @@ li > span {
     z-index: -1;
   }
   .promo__img {
-    background-image: url(/images/media/1140/header/back_1.png);
+    background-image: url(images/media/1140/header/back_1.png);
     top: 210px;
     height: 1915px;
   }
   .promo__img__media1 {
-    background-image: url(/images/media/1140/header/globe\ back\ tablet.jpg.png);
+    background-image: url(images/media/1140/header/globe\ back\ tablet.jpg.png);
     position: absolute;
     z-index: 0;
     width: 100%;
@@ -1681,7 +1681,7 @@ li > span {
   }
 
   .footer__footer {
-    top: 192px;
+    top: 205px;
     height: 100px;
   }
   .footer__footer-logo {
@@ -1698,7 +1698,7 @@ li > span {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .header {
     display: flex;
     justify-content: space-between;
@@ -1822,7 +1822,7 @@ li > span {
   }
 
   .promo__img__media1 {
-    background-image: url(/images/media/768/promo/globe-back-mobile\ 1.png);
+    background-image: url(images/media/768/promo/globe-back-mobile\ 1.png);
     top: -40px;
     height: 518px;
     z-index: -1;

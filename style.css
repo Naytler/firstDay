@@ -267,6 +267,7 @@ button {
   max-width: 264px;
   height: 183px;
   margin-right: 83px;
+  padding-left: 10px;
 }
 
 .promo__quotes-top {
@@ -688,6 +689,7 @@ li > span {
   display: flex;
   gap: 60px;
   max-height: 483px;
+  margin-right: 10px;
 }
 
 .profile {
@@ -698,6 +700,7 @@ li > span {
   height: 750px;
   flex-direction: column;
   align-items: center;
+  padding-right: 10px;
 }
 
 .profile__background {
@@ -1005,6 +1008,7 @@ li > span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 0px 10px;
 }
 
 .footer__contacts-background {
@@ -1215,7 +1219,7 @@ li > span {
 
 @media (max-width: 1250px) {
   .travelers__imgs {
-    margin: 134px 0 0 56px;
+    margin: 134px 10px 0 56px;
   }
   .promo__bottom__list {
     padding: 0 10px;
@@ -1388,8 +1392,15 @@ li > span {
   }
   .promo__bottom__item-orange4 {
     max-width: 344px;
-    border-radius: 0 0 0 15px;
+    border-radius: 0 0 15px 15px;
   }
+
+  .about > .container {
+    margin: 0 auto;
+    width: 768px;
+    padding-left: 60px;
+  }
+
   .about__text {
     margin-top: 142px;
     margin-left: 15px;
@@ -1401,8 +1412,13 @@ li > span {
     margin-bottom: 31px;
     line-height: 33px;
   }
+  .about__subtitle > span {
+    display: block;
+  }
+
   .about__subtitle2 {
     margin-bottom: 52px;
+    width: 265px;
   }
   .about__img {
     display: none;
@@ -1427,6 +1443,10 @@ li > span {
   .countries__background__imgs {
     top: 85px;
     align-items: center;
+    width: 768px;
+    left: 0;
+    margin: 0 auto;
+    right: 0;
   }
 
   .countries__background__imgs-restangle {
@@ -1460,6 +1480,10 @@ li > span {
     position: relative;
     left: -150px;
   }
+
+  .countries__text-subtitle {
+    max-width: 340px;
+  }
   .countries__text-button {
     position: absolute;
     bottom: -700px;
@@ -1479,7 +1503,10 @@ li > span {
   }
 
   .travelers__background-back {
-    margin: 160px 0 0 40px;
+    left: -500px;
+    right: 0;
+    margin: auto;
+    top: 153px;
   }
 
   .travelers__background-lady {
@@ -1490,10 +1517,10 @@ li > span {
   }
 
   .travelers__background-man {
-    margin: 506px 0 0 50px;
-    left: 0;
+    margin: 0 auto;
+    left: -560px;
     right: 0;
-    top: 0;
+    top: 490px;
     bottom: 0;
   }
 
@@ -1822,15 +1849,16 @@ li > span {
   }
 
   .promo__img__media1 {
-    background-image: url(images/media/768/promo/globe-back-mobile\ 1.png);
-    top: -40px;
-    height: 518px;
+    /* background-image: url(images/media/768/promo/globe-back-mobile\ 1.png); */
+    top: 163px;
+    height: 315px;
     z-index: -1;
   }
   .promo__img {
     background-image: none;
     background-color: #192144;
-    top: -509px;
+    top: -484px;
+    border-radius: 30px;
   }
 
   .promo__top {
@@ -1919,6 +1947,7 @@ li > span {
 
   .about > .container {
     justify-content: center;
+    width: 100%;
   }
   .about__background {
     border-radius: 0 0 50px 0;
@@ -1958,14 +1987,18 @@ li > span {
     z-index: -1;
     width: 292px;
     height: 353px;
-    top: -30px;
-    left: -50px;
+    top: -8px;
+    margin: 0 auto;
+    left: -10px;
+    right: 0;
   }
   .about__img2 {
+    width: 132px;
+    margin: 0 auto;
     z-index: -2;
     top: -30px;
-    left: -55px;
-    width: 132px;
+    left: -180px;
+    right: 0;
   }
   .countries__background-img {
     top: -154px;
@@ -2034,15 +2067,24 @@ li > span {
     margin: 70px 0 0 0px;
     width: 113px;
     height: 132px;
+    top: 69px;
+    left: -205px;
+    right: 0;
+    margin: 0 auto;
   }
 
   .travelers__background-lady {
     width: 64px;
-    margin: 0;
-    margin-top: 185px;
+    left: -270px;
+    right: 0;
+    top: 350px;
   }
   .travelers__background-man {
-    margin: 69px 152px;
+    height: 132px;
+    right: 0;
+    left: 127px;
+    top: 69px;
+    margin: 0 auto;
   }
 
   .travelers__text {
@@ -2136,11 +2178,12 @@ li > span {
     font-size: 18px;
   }
   .profile__title {
+    position: relative;
     font-size: 24px;
     line-height: 24px;
     width: 107px;
-    align-self: baseline;
-    margin-left: 10px;
+    left: -74px;
+    right: 0;
   }
   .profile__text {
     justify-content: center;
@@ -2227,12 +2270,13 @@ li > span {
   }
   .profile__text__price {
     position: absolute;
-    left: auto;
-    top: 241px;
     gap: 56px;
-    right: 195px;
-    margin: auto;
     text-align: left;
+    width: 100px;
+    top: 241px;
+    left: -170px;
+    right: 0;
+    margin: 0 auto;
   }
   .profile__text__img1 {
     display: none;
@@ -2307,6 +2351,8 @@ li > span {
     width: 60px;
     padding: 0;
     position: absolute;
+    margin: 0 auto;
+    left: 245px;
     right: 0;
 
     justify-content: center;
@@ -2348,6 +2394,10 @@ li > span {
     top: -50px;
   }
 
+  .footer__map {
+    height: 400px;
+  }
+
   .footer__addres-background {
     border-radius: 50px;
     top: -160px;
@@ -2375,10 +2425,13 @@ li > span {
   .footer__map-backgr {
     position: absolute;
     top: -190px;
+    height: 424px;
   }
   .footer__footer {
     flex-direction: column;
     gap: 30px;
+    top: 41px;
+    height: 100px;
   }
 
   .footer__footer-backgr {

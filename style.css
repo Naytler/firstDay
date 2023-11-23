@@ -21,6 +21,11 @@ html,
 body {
   font-family: blogger sans;
   height: 100%;
+  font-family: blogger sans;
+  height: 100%;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 ul {
@@ -46,14 +51,6 @@ button {
 @font-face {
   font-family: 'Blogger Sans bold';
   src: url('fonts/Blogger_Sans-Bold.otf') format('truetype');
-}
-
-.wrapper {
-  font-family: blogger sans;
-  height: 100%;
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
 }
 
 .header_scroll {
@@ -703,9 +700,6 @@ li > span {
   padding-right: 10px;
 }
 
-.profile__background {
-}
-
 .profile__background-img {
   position: absolute;
   z-index: -6;
@@ -966,12 +960,6 @@ li > span {
   text-align: left;
   color: rgba(29, 46, 91, 1);
   border: none;
-}
-
-.interested {
-}
-
-.interested__background {
 }
 
 .interested__background-img {
@@ -1644,9 +1632,6 @@ li > span {
   }
   .footer__contacts-text {
     margin-top: 60px;
-  }
-
-  .footer__contacts-text > a {
   }
 
   .footer__contacts__send {

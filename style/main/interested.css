@@ -1,0 +1,21 @@
+.interested__background-img {
+  position: absolute;
+  top: 3686px;
+  z-index: -7;
+  height: 310px;
+  width: 100%;
+  max-width: 1440px;
+}
+
+.interested__title {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 141, 48, 1);
+  margin: 0 auto;
+  margin-top: 109px;
+  background: none;
+  border: none;
+}

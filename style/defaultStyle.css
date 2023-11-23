@@ -1,0 +1,52 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html,
+body {
+  font-family: blogger sans;
+  height: 100%;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: 'Blogger Sans medium';
+  src: url('../fonts/Blogger_Sans-Medium.otf') format('truetype');
+}
+@font-face {
+  font-family: 'Blogger Sans light';
+  src: url('../fonts/Blogger_Sans-Light.otf') format('truetype');
+}
+@font-face {
+  font-family: 'Blogger Sans';
+  src: url('../fonts/Blogger_Sans.otf') format('truetype');
+}
+@font-face {
+  font-family: 'Blogger Sans bold';
+  src: url('../fonts/Blogger_Sans-Bold.otf') format('truetype');
+}

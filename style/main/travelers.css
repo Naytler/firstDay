@@ -1,0 +1,86 @@
+.travelers > .container {
+  height: 751px;
+}
+
+.travelers__background-main {
+  background-image: url(../../images/traveles/background_about.png);
+  height: 838px;
+  width: 100%;
+  max-width: 1440px;
+  position: absolute;
+  top: 2198px;
+  z-index: -5;
+}
+
+.travelers__background-back {
+  position: absolute;
+  margin: 70px 0 0 60px;
+}
+
+.travelers__background-lady {
+  position: absolute;
+  margin: 386px 0 0 190px;
+  z-index: -5;
+}
+
+.travelers__background-man {
+  position: absolute;
+  margin: 134px 0 0 547px;
+  z-index: -5;
+}
+.travelers__text {
+  text-align: left;
+  letter-spacing: 0em;
+  margin-left: 69px;
+  margin-top: 130px;
+  max-width: 428px;
+}
+.travelers__title {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 45px;
+  color: rgba(255, 141, 48, 1);
+  max-width: 208px;
+  max-height: 45px;
+  margin-bottom: 55px;
+}
+
+.travelers__subtitle {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 34px;
+  margin-bottom: 42px;
+  max-width: 427px;
+  color: #fff;
+}
+
+.travelers__subtitle2 {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 85px;
+  max-width: 260px;
+  color: #fff;
+}
+
+.travelers__button {
+  width: 274px;
+  height: 80px;
+  border-radius: 20px;
+  background: rgba(255, 215, 75, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 33px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.travelers__imgs {
+  margin: 134px 0 0 193px;
+  display: flex;
+  gap: 60px;
+  max-height: 483px;
+  margin-right: 10px;
+}

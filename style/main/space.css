@@ -1,0 +1,43 @@
+.space__fix {
+  height: 90px;
+}
+
+.space {
+  position: relative;
+}
+
+.space__header {
+  height: 90px;
+  max-width: 1440px;
+  margin-left: 0;
+  background-color: white;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.space > .header {
+  margin: auto 60px;
+}
+
+.space__menu__list {
+  color: black;
+}
+
+.menu__list-item {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.space__header__left {
+  display: flex;
+  max-width: 735px;
+  margin-left: 60px;
+}
+
+.space__header__contact {
+  display: flex;
+  max-width: 288px;
+  margin-right: 60px;
+}

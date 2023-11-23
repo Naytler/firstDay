@@ -1,0 +1,496 @@
+@media (max-width: 1250px) {
+  .travelers__imgs {
+    margin: 134px 10px 0 56px;
+  }
+  .promo__bottom__list {
+    padding: 0 10px;
+  }
+}
+
+@media (min-width: 1140px) {
+  .header__modale {
+    display: none;
+  }
+}
+
+@media (max-width: 1140px) {
+  .header {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .header__svg,
+  .menu,
+  .header__contact-img,
+  .header__svg2,
+  .space,
+  .space__fix {
+    display: none;
+  }
+
+  .header__scroll {
+    position: fixed;
+    margin: 0;
+    z-index: 11;
+    background: #fff;
+    height: 132px;
+    max-height: 132px;
+    align-items: center;
+  }
+
+  .header_scroll__space {
+    height: 100px;
+  }
+
+  .header__scroll__media {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+
+  .meadia__header {
+    display: block;
+  }
+
+  .header__left {
+    margin-left: 40px;
+  }
+  .header__contact {
+    margin-right: 40px;
+  }
+  .header__modale {
+    /* display: block; */
+    position: absolute;
+  }
+
+  #modale__travelers-mod {
+    top: 0;
+    height: 0;
+  }
+  .promo__backround {
+    display: block;
+    position: relative;
+    top: -93px;
+    z-index: -1;
+  }
+  .promo__img {
+    background-image: url(../images/media/1140/header/back_1.png);
+    top: 210px;
+    height: 1915px;
+  }
+  .promo__img__media1 {
+    background-image: url(../images/media/1140/header/globe\ back\ tablet.jpg.png);
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 612px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 370px;
+  }
+  .promo__img {
+    top: -18px;
+  }
+  .promo__top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    position: relative;
+    top: -344px;
+  }
+  .promo__title {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+    justify-self: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 0px;
+    max-width: 399px;
+  }
+
+  .promo__quotes {
+    grid-row: 2;
+    grid-column: 1;
+    justify-self: center;
+    margin-left: 72px;
+    margin-right: 0;
+  }
+
+  .promo__quotes-top {
+    margin-top: 86px;
+  }
+  .promo__travel-img {
+    display: none;
+    grid-row: 2;
+    grid-column: 2;
+  }
+  .promo__travel-img2 {
+    display: block;
+    position: absolute;
+    margin-top: 32px;
+    grid-row: 2;
+    grid-column: 2;
+    left: -95px;
+  }
+
+  .promo__bottom {
+    margin: 0 40px;
+  }
+
+  .promo__bottom__list {
+    flex-wrap: wrap;
+    justify-content: center;
+    top: 186px;
+  }
+
+  .promo__bottom__list > li {
+    display: block;
+    height: 140px;
+  }
+
+  .promo__bottom__list > li > p {
+    margin-bottom: 10px;
+  }
+
+  .promo__bottom__item-orange1 {
+    border-radius: 15px 0 0 0;
+    max-width: 365px;
+  }
+  .promo__bottom__item-orange2 {
+    max-width: 344px;
+    border-radius: 15px 15px 0 0;
+  }
+  .promo__bottom__item-orange3 {
+    max-width: 365px;
+    margin-left: 0;
+    border-radius: 0 0 15px 15px;
+  }
+  .promo__bottom__item-orange4 {
+    max-width: 344px;
+    border-radius: 0 0 15px 15px;
+  }
+
+  .about > .container {
+    margin: 0 auto;
+    width: 768px;
+    padding-left: 60px;
+  }
+
+  .about__text {
+    margin-top: 142px;
+    margin-left: 15px;
+  }
+  .about__title {
+    margin-bottom: 40px;
+  }
+  .about__subtitle {
+    margin-bottom: 31px;
+    line-height: 33px;
+  }
+  .about__subtitle > span {
+    display: block;
+  }
+
+  .about__subtitle2 {
+    margin-bottom: 52px;
+    width: 265px;
+  }
+  .about__img {
+    display: none;
+  }
+  .about__img1140 {
+    display: block;
+    max-width: 376px;
+    max-height: 548px;
+    margin-top: 153px;
+  }
+  .about__img2 {
+    width: 100%;
+    max-width: 688px;
+    top: 106px;
+  }
+  .countries__background-img {
+    top: 46px;
+    height: 1169px;
+    background: #edeff6;
+  }
+
+  .countries__background__imgs {
+    top: 85px;
+    align-items: center;
+    width: 768px;
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+  }
+
+  .countries__background__imgs-restangle {
+    margin-left: 40px;
+    position: relative;
+    top: 100px;
+  }
+
+  .countries__background__imgs-flag {
+    margin-right: 40px;
+  }
+
+  .countries__images {
+    margin-top: 104px;
+    margin-left: 0;
+    width: 616px;
+    position: relative;
+    left: -30px;
+  }
+  .countries__background {
+    position: relative;
+  }
+
+  .countries > .container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .countries__text {
+    margin: 166px 0 0 0px;
+    position: relative;
+    left: -150px;
+  }
+
+  .countries__text-subtitle {
+    max-width: 340px;
+  }
+  .countries__text-button {
+    position: absolute;
+    bottom: -700px;
+    width: 618px;
+  }
+  .travelers {
+    position: relative;
+    display: flex;
+    top: 370px;
+    height: 1303px;
+  }
+  .travelers__background-main {
+    top: -17px;
+    border-radius: 0 0 50px 50px;
+    height: 1321px;
+    background: #192144;
+  }
+
+  .travelers__background-back {
+    left: -500px;
+    right: 0;
+    margin: auto;
+    top: 153px;
+  }
+
+  .travelers__background-lady {
+    margin: 0 auto;
+    left: 0;
+    right: -405px;
+    top: 147px;
+  }
+
+  .travelers__background-man {
+    margin: 0 auto;
+    left: -560px;
+    right: 0;
+    top: 490px;
+    bottom: 0;
+  }
+
+  .travelers > .container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .travelers__text {
+    margin-top: 210px;
+    margin-left: 0;
+    position: relative;
+    left: -130px;
+  }
+
+  .travelers__subtitle2 {
+    margin-bottom: 39px;
+  }
+  .travelers__button {
+    position: absolute;
+    width: 616px;
+    bottom: -641px;
+  }
+
+  .travelers__imgs {
+    gap: 50px;
+    margin: 0;
+    position: relative;
+    left: -30px;
+  }
+  .profile {
+    position: relative;
+    top: 370px;
+    height: 555px;
+  }
+
+  .profile__background-img {
+    height: 615px;
+    border-radius: 0 0 50px 50px;
+  }
+
+  .profile__modale {
+    max-width: 688px;
+    top: 0px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+
+  .profile > .container {
+    margin-left: 40px;
+
+    height: 553px;
+  }
+
+  .profile__title {
+    color: rgba(255, 141, 48, 1);
+    margin-top: 74px;
+  }
+
+  .profile__text {
+    display: flex;
+    margin-top: 71px;
+  }
+
+  .profile__text__choice-3 > span::after {
+    top: 396px;
+    left: 100px;
+  }
+
+  .profile__text__price {
+    margin-right: 40px;
+    left: -37px;
+  }
+
+  .profile__text__img1 {
+    width: 198px;
+    height: 285px;
+    top: -62px;
+    left: -33px;
+  }
+  .profile__text__img2 {
+    left: 18px;
+    top: 195px;
+    width: 100px;
+  }
+
+  .interested {
+    position: relative;
+    top: 240px;
+  }
+
+  .interested__background-img {
+    top: 35px;
+  }
+
+  .interested > .container {
+    top: 210px;
+    margin-left: 0;
+  }
+
+  .interested__title {
+    margin: 0 auto;
+  }
+
+  .footer {
+    position: relative;
+    top: 265px;
+    z-index: -7;
+  }
+
+  .footer__contacts {
+    top: 195px;
+  }
+
+  .footer__contacts-background {
+    position: absolute;
+    z-index: -7;
+    top: -195px;
+  }
+  .footer__contacts-text {
+    margin-top: 60px;
+  }
+
+  .footer__contacts__send {
+    margin-top: 65px;
+    justify-content: center;
+    width: 618px;
+  }
+
+  .footer__contacts__send-input {
+    height: 80px;
+
+    padding-left: 25px;
+  }
+  .footer__contacts__send-button {
+    width: 80px;
+  }
+
+  .footer__contacts__send-button > span {
+    display: none;
+  }
+
+  .footer__contacts-text2 {
+    font-size: 28px;
+    width: 618px;
+    line-height: 30px;
+  }
+
+  .footer__contacts__incontact {
+    margin-top: 40px;
+    flex-direction: column;
+    gap: 0;
+    font-size: 28px;
+    position: relative;
+    left: -105px;
+  }
+
+  .footer__addres {
+    top: 100px;
+  }
+
+  .footer__addres-background {
+    height: 378px;
+    top: -112px;
+  }
+  .footer__addres__nav {
+    margin-top: 206px;
+  }
+  .footer__addres__nav-svg {
+    height: 68px;
+  }
+  .footer__addres__nav-button {
+    position: absolute;
+    width: 618px;
+    top: 102px;
+    margin-left: 65px;
+  }
+  .footer__map {
+    top: 240px;
+  }
+
+  .footer__footer {
+    top: 205px;
+    height: 100px;
+  }
+  .footer__footer-logo {
+    margin-left: 40px;
+  }
+  .footer__footer__dev {
+    margin-right: 40px;
+  }
+}

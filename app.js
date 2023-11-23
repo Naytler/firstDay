@@ -14,6 +14,12 @@ const headerModale = document.querySelector('.header__modale');
 
 const headerMediaClose = document.querySelector('.header__modale__top-img2');
 
+const headerMob = document.querySelector('.meadia__header-mob');
+
+headerMob.addEventListener('click', () => {
+  headerModale.classList.toggle('none');
+});
+
 headerMedia.addEventListener('click', function () {
   headerModale.classList.remove('none');
 });
@@ -40,6 +46,7 @@ interestedButton.addEventListener('click', function () {
 about.forEach((link) => {
   link.addEventListener('click', function (event) {
     event.preventDefault();
+    headerModale.classList.add('none');
     window.scrollTo({
       top: 750,
       behavior: 'smooth',
@@ -50,6 +57,7 @@ about.forEach((link) => {
 countries.forEach((link) => {
   link.addEventListener('click', function (event) {
     event.preventDefault();
+    headerModale.classList.add('none');
     window.scrollTo({
       top: 1540,
       behavior: 'smooth',
@@ -60,6 +68,7 @@ countries.forEach((link) => {
 travelers.forEach((link) => {
   link.addEventListener('click', function (event) {
     event.preventDefault();
+    headerModale.classList.add('none');
     window.scrollTo({
       top: 2290,
       behavior: 'smooth',
@@ -67,20 +76,19 @@ travelers.forEach((link) => {
   });
 });
 
-// 750
-
 window.addEventListener('scroll', function () {
   const currentPosition = window.scrollY;
 
   const targetElement = document.querySelector('.space__header');
   const spaceFix = document.querySelector('.space__fix');
-
+  const headerImg1 = document.querySelector('.header__left-img1');
   if (currentPosition >= 750) {
     targetElement.classList.add('fixed');
     spaceFix.classList.remove('none');
   } else {
     targetElement.classList.remove('fixed');
     spaceFix.classList.add('none');
+    headerImg1.classList.remove('none');
   }
 });
 
@@ -121,12 +129,18 @@ window.addEventListener('scroll', function () {
     header.classList.remove('header__scroll');
   }
 
-  const headerMobile = this.document.querySelector('.header__mobile-scroll');
+  const headerMobile = document.querySelector('.header__mobile-scroll');
   if (document.body.clientWidth <= 767) {
+    const svg1 = document.querySelector('.meadia__header__svg1 ');
+    const svg2 = document.querySelector('.meadia__header__svg2 ');
+    const header__scroll = document.querySelector('.header_scroll__space');
     if (currentPosition >= 1) {
       headerMobile.classList.remove('none');
+      svg1.classList.remove('none');
+      svg2.classList.add('none');
     } else {
       headerMobile.classList.add('none');
+      header__scroll.classList.add('none');
     }
   } else {
     headerMobile.classList.add('none');

@@ -69,6 +69,11 @@
   line-height: 20px;
 }
 
+.meadia__header-mob {
+  background: transparent;
+  border: none;
+}
+
 .header__modale {
   display: block;
   width: 100%;

@@ -38,6 +38,13 @@
   .header__contact-img {
     display: block;
   }
+
+  .header__modale {
+    position: fixed;
+    top: 0;
+    padding-top: 30px;
+  }
+
   .header__contact-img > img {
     width: 40px;
   }
